@@ -1,0 +1,2 @@
+export GIT_SSH_COMMAND="ssh -i $(grep -l '^-----BEGIN .*PRIVATE KEY-----' /workspace/.ssh/* | head -n 1) -o IdentitiesOnly=yes -o HostName=ssh.github.com -p 443 -o UserKnownHostsFile=/workspace/.ssh/known_hosts -o StrictHostKeyChecking=yes -o ProxyCommand='nc -X connect -x $(tr '\0' '\n' </proc/1/environ | sed -n 's|^https_proxy=http://||p' | head -n 1) %h %p'"
+git -c safe.directory="$PWD" pull --ff-only

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "track": "rtl",
+  "model": {
+    "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+    "source": "https://www.modelscope.cn/models/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+    "revision": "fc62412a020e0c1ee3a8f9a12f10aea2102478f0",
+    "quantization": "GSQ-RCO IQ3_S",
+    "measured_vram_gb": 28.245,
+    "finetuned": false,
+    "finetune_weights_url": null
+  },
+  "auxiliary_models": [],
+  "context": {
+    "max_model_len": 262144,
+    "max_output_tokens": 16384,
+    "rope_scaling": null
+  },
+  "generation": {
+    "chat_template_kwargs": {
+      "enable_thinking": true
+    },
+    "reasoning_effort": "xhigh"
+  },
+  "serving": {
+    "backend": "llama.cpp-rocm",
+    "version": "0.4.0-dev-f114f91",
+    "start_command": "bash serve/llamacpp.sh",
+    "port": 8000
+  },
+  "endpoints": {
+    "solve": "./run.sh",
+    "baseline": "./run_baseline.sh",
+    "http_port": 7860
+  },
+  "agent": {
+    "max_rounds": 24,
+    "tools": [
+      "list_files",
+      "read_file",
+      "write_file",
+      "patch_file",
+      "set_contract",
+      "amend_test",
+      "check_interface",
+      "compile",
+      "lint",
+      "simulate",
+      "synth",
+      "analyze_log",
+      "search_docs",
+      "submit"
+    ],
+    "skills": [
+      "rtl-design",
+      "autonomous-rtl",
+      "pinned-ross-lint-resolution"
+    ]
+  }
+}

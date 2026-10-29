@@ -1,0 +1,41 @@
+{
+  "model": {
+    "file": "Qwen3.8-27B-GSQ-RCO-IQ3_S.gguf",
+    "sha256": "64b53b64c7aa39f20a7e54bd80582fe595b1d745624ee8a72e92508c0326d810"
+  },
+  "agent": {
+    "input_char_limit": 65536,
+    "max_response_bytes": 67108864,
+    "max_actions": 64,
+    "max_tool_runs": 24,
+    "tool_seconds": 180,
+    "tool_timeout_s": 45,
+    "tool_memory_mb_linux": 8192,
+    "artifact_mb": 64,
+    "preserve_thinking": true
+  },
+  "development": {
+    "base_url": "https://developer.amd.com.cn/radeon/api/v1",
+    "model_name": "Qwen3.8-27B"
+  },
+  "baseline_source": {
+    "commit": "f7a8bd465c2a820e006c7a00ecc7df468974635b",
+    "canonical_sha256": {
+      "baseline.py": "17aaa609d4dbd36a94d1390e39f769394448f8588f3ccdd2bd37db9e34ed05e2",
+      "run_baseline.sh": "5c46c40d32c0cf4c4e1dc52ae12e60f8396a0deccafaa4e6f69d7316a3482e75"
+    }
+  },
+  "base_image": "fpgachina-rtlhls@sha256:a7cf627e11708e8a6dcd9de689ff934f7b450b79369ebc7bb0217e8b54d81e56",
+  "official_reference_commit": "fc8e26a5828b7222e9db439cee29128bcf4f8865",
+  "final_target": {
+    "gpu": "AMD Radeon PRO W7900",
+    "vram_gb": 32,
+    "vivado": "2026.1",
+    "offline": true,
+    "validated": false,
+    "architecture": "gfx1100"
+  },
+  "serving": {
+    "reasoning_budget_tokens": 4096
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "12.0.0",
+  "release": "v12.0",
+  "source": "https://github.com/MikePopoloski/slang/releases/tag/v12.0",
+  "assets": {
+    "linux": {
+      "file": "slang-linux-x86_64.tar.gz",
+      "sha256": "d1f680e2c90b95daab3b812a6431055e3d8828fde281dbf89b72ee3eceb90dd5"
+    },
+    "windows": {
+      "file": "slang-windows-x86_64.zip",
+      "sha256": "ac53a2003eb60c8adcaae6c2fa2191e07ee7c6c28f260cfa72bd8af2ae9fdacc"
+    }
+  }
+}

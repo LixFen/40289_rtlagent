@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+serve/fpga-token.local.txt
+out/
+weights/
+evidence/
+freeze.json
+*.log
+.Xil/
+xsim.dir/

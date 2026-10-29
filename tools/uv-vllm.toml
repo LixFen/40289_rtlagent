@@ -1,0 +1,7 @@
+# AMD's public S3 wheel index returns 403 for absent package names. Permit normal
+# fallback to PyPI for those missing names; AMD packages still use this index first.
+# The installer requests pip-style best-match resolution across these trusted sources.
+[[index]]
+name = "amd-vllm"
+url = "https://rocm.frameworks.amd.com/whl-multi-arch/vllm/"
+ignore-error-codes = [403]

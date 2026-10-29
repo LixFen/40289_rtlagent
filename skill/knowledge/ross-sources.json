@@ -1,0 +1,51 @@
+{
+  "repository": "https://github.com/Xilinx/ross-ai-assistant",
+  "commit": "2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de",
+  "files": {
+    "ross-LICENSE.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/LICENSE",
+      "sha256": "3de7fea911353980067e0f943d332dd74cbd2b610d4421318aaef25d8103f11d",
+      "bytes": 1085
+    },
+    "ross-resolution-guide.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/resolution-guide.md",
+      "sha256": "44f6e5122f803705bcd4239e613eef5e6eb87fed3c9eb3299cd6edcdfa6a7bfd",
+      "bytes": 3520
+    },
+    "ross-ASSIGN-1.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/resolution/ASSIGN-1.md",
+      "sha256": "b3255e651e1b149ae5b430b45fa2a41566658bb61c44ff1424bba73fcf903980",
+      "bytes": 2894
+    },
+    "ross-ASSIGN-2.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/resolution/ASSIGN-2.md",
+      "sha256": "94aa668b3de12e3eb406e3a38f16644a302ecbe5c135ce21c84e61f16d12220f",
+      "bytes": 1910
+    },
+    "ross-INFER-1.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/resolution/INFER-1.md",
+      "sha256": "27b56f31568bb8b74af0d454da9ddffc8d6ff96ad100eb11ed5c0f8927709f01",
+      "bytes": 3724
+    },
+    "ross-INFER-2.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/resolution/INFER-2.md",
+      "sha256": "2cd7db51fb80f4e374f40c78c07763c653491c2bc044c699c632d417a8bd574c",
+      "bytes": 3712
+    },
+    "ross-RESET-3.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/resolution/RESET-3.md",
+      "sha256": "bbe9665bdba05a204012671982d4d43e8dbac1d14a047bb3cf41696ef830c58d",
+      "bytes": 2288
+    },
+    "ross-CLOCK-1.md": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/resolution/CLOCK-1.md",
+      "sha256": "1ff0e2b4aa3fa6ecc6518376729db33fdf815d81a899ead59c1583f97bb81d2a",
+      "bytes": 1977
+    },
+    "agent/vendor/ross_parse_lint_report.py": {
+      "source": "https://raw.githubusercontent.com/Xilinx/ross-ai-assistant/2cdc9eef1b6b5b17fa45f5e4d468e5483a1c92de/skills/vivado-rtl-lint/parse_lint_report.py",
+      "sha256": "c35840e051d6c8f20689ceceecf8de8c3d6db01ef37b0df46e12bb1a317364ab",
+      "bytes": 5346
+    }
+  }
+}

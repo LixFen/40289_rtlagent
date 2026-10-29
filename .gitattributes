@@ -1,0 +1,6 @@
+*.sh text eol=lf
+baseline.py text eol=lf
+# Preserve checksum-pinned vendor assets byte-for-byte in Git archives/checkouts.
+skill/knowledge/ross-*.md -text
+agent/vendor/ross_parse_lint_report.py -text
+vendor/*.tar.gz -text
